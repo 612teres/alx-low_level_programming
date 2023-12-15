@@ -35,3 +35,12 @@ return 0;
 }
 return result;
 }
+
+int main (){
+const char *b = "110101";
+unsigned int result;
+
+printf("Binary: %s\n", chat *b);
+printf("Deciamal: %u\n", result);
+return 0;
+}
