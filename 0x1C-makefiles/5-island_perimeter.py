@@ -2,7 +2,7 @@
 
 """ returns the perimeter of the island described in grid"""
 
-def isalnd_perimeter(grid):
+def island_perimeter(grid):
     """This function returns the perimeter of an island.
        - Grid cells are connected horizontally/vertically (not diagonally).
         - Grid is rectangular, with width and height not exceeding 100.
