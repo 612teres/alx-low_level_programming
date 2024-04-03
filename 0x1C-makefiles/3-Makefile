@@ -6,7 +6,7 @@ TOCLEAN = *~
 RM = rm -f
 
 all : $(OBJ)
-	$(CC) $(SRC) -O $(NAME)
+	$(CC) $(SRC) -o $(NAME)
 
 fclean : oclean clean
 
@@ -14,6 +14,6 @@ oclean :
 	$(RM) $(OBJ)
 
 clean :
-	$(RM) $(TOCLEAN) $(NAME)
+	$(RM)  $(TOCLEAN) $(NAME)
 
 re : oclean all
